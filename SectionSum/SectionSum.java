@@ -1,4 +1,4 @@
-/*
+package SectionSum;/*
 문제
     1번째 줄에 수의 개수 N (1 <= N <= 100,000), 합을 구해야 하는 횟수 M (1 <= M <= 100,000), 2번째 줄에 N개의 수가 주어진다.
     각 수는 1000보다 작거나 같은 자연수이다. 3번째 줄 부터는 M개의 줄에 합을 구해야하는 구간 i와 j가 주어진다.
@@ -10,7 +10,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
 import java.util.StringTokenizer;
 
 public class SectionSum {
