@@ -38,6 +38,6 @@ public class FindGoodNum {
             }
         }
         System.out.println(count);
-        bf.close();
+        br.close();
     }
 }
