@@ -52,7 +52,7 @@ public class Friendship {
             return;
         }
         visited[v] = true;
-        
+
         for(int i: list[v])
             if(!visited[i])
                 DFS(i, depth+1);
