@@ -47,7 +47,8 @@ public class DFS {
             return;
         visited[v] = true;
         for(int i : nodeList[v]) {
-            Dfs(i);
+            if(!visited[i])
+                Dfs(i);
         }
     }
 
