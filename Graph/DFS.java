@@ -36,18 +36,18 @@ public class DFS {
         for(int i=1; i<n+1; i++) {
             if(!visited[i]) {
                 count++;
-                DFS(i);
+                Dfs(i);
             }
         }
         System.out.println(count);
 
     }
-    static void DFS(int v) {
+    static void Dfs(int v) {
         if(visited[v])
             return;
         visited[v] = true;
         for(int i : nodeList[v]) {
-            DFS(i);
+            Dfs(i);
         }
     }
 
