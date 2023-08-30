@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 백준 11404 
+// 백준 11404
 public class FastestBusRoute {
     static int[][] route;
     static int N, M;
