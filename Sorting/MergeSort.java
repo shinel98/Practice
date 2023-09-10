@@ -2,6 +2,7 @@ package Sorting;
 
 import java.io.*;
 
+// 백준 2751번
 public class MergeSort {
     static int[] A;
     static int[] temp;
